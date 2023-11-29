@@ -1,0 +1,84 @@
+.login h1 a {
+    background-image: url(https://www.muvh.gov.py/sitio/wp-content/uploads/2023/08/logo-muvh.png) !important;
+    background-size: 300px  !important;
+    height: 108px !important;
+    width: 300px !important;
+}
+
+body {
+
+    background:#007bff!important;
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+display: block;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.3);
+    background: white;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2px 4px;
+    width: 100%;
+
+}
+
+#login form {
+    margin-top: 20px;
+    margin-left: 27px;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+     box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+    border: 0px;
+}
+
+.wp-core-ui .button.button-large {
+  height: 40px !important;
+    width: 100% !important;
+    margin-top: 25px !important;
+	background-color:#e91e63 !important;
+}
+
+#login {
+
+box-shadow: 0 0 50px 5px rgb(0 0 0 / 30%), 0 0 5px -1px white;
+    mix-blend-mode: normal;
+    isolation: isolate;
+    width: 362px;
+    padding: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    margin-left: -200px;
+   	background: #fff;
+
+}
+
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    /* border: 1px solid #c3c4c7; */
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+
+}
+
+/* Ocultar la opción "¿Has olvidado la contraseña?" en la página de inicio de sesión */
+#nav a {
+    display: none;
+}

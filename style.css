@@ -1,0 +1,162 @@
+/*
+Theme Name: Muvh
+Theme URI: https://www.muvh.gov.py
+Author: Nestor Morel
+Author URI: https://muvh.gov.py
+Description: MUVH Accebility Theme para  Ministerio Urbanismo Vivienda y Habitat.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Muvh
+Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, flexible-header, full-width-template, buddypress, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, rtl-language-support, featured-images, theme-options
+*/
+.contentsidebar {
+
+    background-color: rgb(249, 249, 249);
+    background-image: url(/application/files/6715/6345/5610/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left top;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+    
+}
+
+.bloques {
+
+        margin-top: 30px;
+}
+
+.fondo {
+    background-color: rgb(240, 240, 240);
+    background-image: url(../muvh/assets/images/nanduti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.fondo1 {
+
+    background-color: rgb(245, 245, 245);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+a {
+    color: #001c54;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: #000a1d;
+    text-decoration: none;
+    }
+
+.buscador {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Gotham Bold;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #242424;
+    line-height: 1.42857143;
+    text-transform: none;
+}
+.buscador h3 {
+
+    text-transform: uppercase;
+        font-family: Gotham Bold;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #242424;
+    line-height: 1.42857143;
+    text-transform: none;
+
+
+}
+
+#sd-menu {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.42857143;
+    -webkit-font-smoothing: antialiased;
+    color: #001c54;
+
+    padding-left: 10px;
+
+}
+
+
+#sd-menu li {
+
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ececec;
+    list-style:none;
+      text-decoration: none;
+}
+
+a:hover {
+color: #000a1d;
+    
+      text-decoration: none;
+}
+
+
+.form-control {
+    display: block;
+    width: 63%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.buscar {
+    position: relative;
+    top: -38px;
+    left: 200px;
+}
+
+h5 {
+
+    font-family: Gotham Bold;
+    font-size: .9em;
+    font-weight: 700;
+    color: #9fa9ad;
+    line-height: 1.42857143;
+    text-transform: uppercase;
+
+    }
+
+.cintillos {
+
+    display: block;
+    background-color: #002455;
+    color: #FFF;
+    font-family: 'calluna_sansregular';
+    font-size: 12px;
+    padding: 12px 20px 10px 15px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: center;
+    font-weight:bold;
+    border-radius: 4px;
+    background-image: url(https://www.muvh.gov.py/sitio/wp-content/uploads/2018/11/gov.png);
+    background-size: 12px !important;
+    background-position: center right !important;
+    background-repeat: no-repeat !important;
+
+}
